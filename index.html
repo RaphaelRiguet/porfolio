@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raphael Riguet — Développeur Web</title>
+<meta name="description" content="Portfolio de Raphael Riguet, développeur web (PHP, Symfony, WordPress) et créateur d'expériences 3D et jeu vidéo (Unity, Blender).">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+
+<div class="grid-backdrop" aria-hidden="true"></div>
+
+<a class="skip-link" href="#about">Aller au contenu</a>
+
+<header class="site-header">
+  <nav class="site-nav">
+    <span class="nav-mark">RR</span>
+    <div class="nav-links">
+      <a href="#about">À propos</a>
+      <a href="#skills">Compétences</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <p class="hero-kicker">Portfolio</p>
+    <h1 class="hero-title">
+      <span class="hero-line" id="typeline">Raphael Riguet</span>
+    </h1>
+    <p class="hero-role">Développeur web — et bâtisseur de mondes en 3D.</p>
+  </div>
+</header>
+
+<main>
+
+<section id="about" class="section">
+  <div class="section-grid">
+    <h2>À propos</h2>
+    <div class="section-body">
+      <p>
+        Je suis développeur web, à l'aise sur toute la chaîne d'un site : structure en HTML et CSS,
+        logique métier en PHP, et applications plus complètes avec Symfony. Je travaille aussi avec
+        WordPress pour des projets qui demandent un déploiement rapide et une gestion de contenu simple.
+      </p>
+      <p>
+        À côté du web, je conçois des environnements et des mécaniques de jeu : modélisation dans Blender,
+        interactivité dans Unity. Les deux pratiques se nourrissent l'une l'autre — la rigueur du code
+        et le sens du détail visuel avancent ensemble.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="section-grid">
+    <h2>Compétences</h2>
+
+    <div class="skill-groups">
+      <div class="skill-group">
+        <h3>Développement web</h3>
+        <ul class="skill-list">
+          <li class="skill">
+            <i class="devicon-html5-plain colored"></i>
+            <span>HTML</span>
+          </li>
+          <li class="skill">
+            <i class="devicon-css3-plain colored"></i>
+            <span>CSS</span>
+          </li>
+          <li class="skill">
+            <i class="devicon-php-plain colored"></i>
+            <span>PHP</span>
+          </li>
+          <li class="skill">
+            <i class="devicon-symfony-original colored"></i>
+            <span>Symfony</span>
+          </li>
+          <li class="skill">
+            <i class="devicon-wordpress-plain colored"></i>
+            <span>WordPress</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3>Jeu vidéo &amp; 3D</h3>
+        <ul class="skill-list">
+          <li class="skill">
+            <i class="devicon-unity-original colored"></i>
+            <span>Unity</span>
+          </li>
+          <li class="skill">
+            <i class="devicon-blender-original colored"></i>
+            <span>Blender</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="section-grid">
+    <h2>Projets</h2>
+
+    <ul class="project-list">
+      <li class="project">
+        <div class="project-index">01</div>
+        <div class="project-content">
+          <h3>Lys Transport</h3>
+          <p>Site web développé pour une entreprise de transport, de la structure à la mise en ligne.</p>
+          <div class="project-links">
+            <a href="https://lys-transport.fr" target="_blank" rel="noopener" class="project-link">
+              Voir le site en ligne
+            </a>
+            <a href="https://projet-norme.vercel.app/histoire.html" target="_blank" rel="noopener" class="project-link project-link--ghost">
+              Voir la démarche du projet
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="section-grid">
+    <h2>Contact</h2>
+    <div class="contact-panel">
+      <a class="contact-item" href="mailto:riguet.raphael1@gmail.com">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">riguet.raphael1@gmail.com</span>
+      </a>
+      <a class="contact-item" href="https://github.com/raphaelriguet" target="_blank" rel="noopener">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">github.com/raphaelriguet</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© 2026 Raphael Riguet</p>
+</footer>
+
+</body>
+</html>
